@@ -26,7 +26,7 @@ const Paste = () => {
               <div className='text-xs mt-5 truncate'>
                 {paste.content}
               </div>
-              <button  className='w-20 h-10 text-xs m-0 mt-4 p-0'><a href={`http://localhost:5173/?pasteId=${paste?.id}`}>View</a></button>
+              <button  className='w-20 h-10 text-xs m-0 mt-4 p-0'><a href={`/?pasteId=${paste?.id}`}>View</a></button>
             </div>
           )
         }
