@@ -1,0 +1,8 @@
+services:
+  mysql:
+    enviroment:
+      -NAME:example
+      -PW:123
+  mongodb:
+    enviroment:
+      -Name1:213
