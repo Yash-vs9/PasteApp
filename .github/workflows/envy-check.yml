@@ -1,4 +1,3 @@
-# .github/workflows/envy-check.yml
 name: Environment Drift Check
 
 on: [push, pull_request]
@@ -9,6 +8,6 @@ jobs:
     steps:
       - name: Check environment drift
         run: |
-          curl -f -X POST https://your-envy-app.com/api/validate \
+          curl -f -X POST https://envy-kyuo.onrender.com/user/validate \
             -H "Content-Type: application/json" \
             -d '{"repoUrl": "${{ github.server_url }}/${{ github.repository }}"}'
