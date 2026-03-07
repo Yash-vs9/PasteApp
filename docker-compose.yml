@@ -1,8 +1,6 @@
 services:
-  mysql:
-    enviroment:
-      -NAME:example
-      -PW:123
-  mongodb:
-    enviroment:
-      -Name1:213
+  backend:
+    environment:
+      - DATABASE_URL=postgres://localhost/mydb
+      - JWT_SECRET=secret
+      - PORT=8080
