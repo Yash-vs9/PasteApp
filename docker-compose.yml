@@ -2,5 +2,21 @@ services:
   backend:
     environment:
       - DATABASE_URL=postgres://localhost/mydb
-      - JWT_SECRET=secret
+      - JWT_SECRET=changeme_in_production
       - PORT=8080
+      - SPRING_DATASOURCE_NAME=mydb
+      - SPRING_DATASOURCE_URL=postgres://localhost:5432/mydb
+      - SPRING_DATASOURCE_USERNAME=myuser
+      - SPRING_DATASOURCE_PASSWORD=changeme_in_production
+      - SPRING_MAIL_HOST=smtp.gmail.com
+      - SPRING_MAIL_PORT=587
+      - SPRING_MAIL_USERNAME=myemail@gmail.com
+      - SPRING_MAIL_PASSWORD=changeme_in_production
+      - SPRING_REDIS_HOST=redis
+      - SPRING_REDIS_PORT=6379
+      - SPRING_REDIS_URL=redis://redis:6379
+      - SPRING_RABBITMQ_HOST=rabbitmq
+      - SPRING_RABBITMQ_PORT=5672
+      - SPRING_RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672
+      - SPRING_RABBITMQ_USERNAME=guest
+      - SPRING_RABBITMQ_PASSWORD=guest
