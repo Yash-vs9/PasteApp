@@ -1,0 +1,20 @@
+<script>start("/Users/yash/Desktop/untitled folder 2/frontend/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow(".next",".next",1,480,"480 B",1773981137,"3/20/26, 10:02:17 AM");</script>
+<script>addRow("node_modules","node_modules",1,11008,"10.8 kB",1773938528,"3/19/26, 10:12:08 PM");</script>
+<script>addRow("public","public",1,224,"224 B",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("src","src",1,160,"160 B",1773941691,"3/19/26, 11:04:51 PM");</script>
+<script>addRow(".env.example",".env.example",0,159,"159 B",1773939128,"3/19/26, 10:22:08 PM");</script>
+<script>addRow(".gitignore",".gitignore",0,480,"480 B",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("AGENTS.md","AGENTS.md",0,327,"327 B",1773938474,"3/19/26, 10:11:14 PM");</script>
+<script>addRow("CLAUDE.md","CLAUDE.md",0,11,"11 B",1773938474,"3/19/26, 10:11:14 PM");</script>
+<script>addRow("Dockerfile","Dockerfile",0,131,"131 B",1773939076,"3/19/26, 10:21:16 PM");</script>
+<script>addRow("eslint.config.mjs","eslint.config.mjs",0,465,"465 B",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("next-env.d.ts","next-env.d.ts",0,251,"251 B",1773981167,"3/20/26, 10:02:47 AM");</script>
+<script>addRow("next.config.ts","next.config.ts",0,133,"133 B",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("package-lock.json","package-lock.json",0,268718,"262 kB",1773938601,"3/19/26, 10:13:21 PM");</script>
+<script>addRow("package.json","package.json",0,794,"794 B",1773938601,"3/19/26, 10:13:21 PM");</script>
+<script>addRow("postcss.config.mjs","postcss.config.mjs",0,94,"94 B",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("README.md","README.md",0,1450,"1.4 kB",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("tsconfig.json","tsconfig.json",0,670,"670 B",1773938357,"3/19/26, 10:09:17 PM");</script>
+<script>addRow("tsconfig.tsbuildinfo","tsconfig.tsbuildinfo",0,153714,"150 kB",1773983024,"3/20/26, 10:33:44 AM");</script>
